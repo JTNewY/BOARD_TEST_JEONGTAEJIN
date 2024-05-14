@@ -1,4 +1,4 @@
-package com.aloha.spring.dto;
+package com.aloha.board.dto;
 
 import java.sql.Date;
 

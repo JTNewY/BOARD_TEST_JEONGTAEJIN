@@ -1,4 +1,4 @@
-package com.aloha.spring;
+package com.aloha.board;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

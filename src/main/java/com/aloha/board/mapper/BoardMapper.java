@@ -1,12 +1,15 @@
-package com.aloha.spring.service;
+package com.aloha.board.mapper;
 
 import java.util.List;
 
-import com.aloha.spring.dto.Board;
+import org.apache.ibatis.annotations.Mapper;
 
-public interface BoardService {
+import com.aloha.board.dto.Board;
 
-      public List<Board> list() throws Exception;
+@Mapper
+public interface BoardMapper {
+
+    public List<Board> list() throws Exception;
 
     public Board select (int no) throws Exception;
 

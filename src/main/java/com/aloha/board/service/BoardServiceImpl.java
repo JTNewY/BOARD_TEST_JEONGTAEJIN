@@ -1,12 +1,12 @@
-package com.aloha.spring.service;
+package com.aloha.board.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.aloha.spring.dto.Board;
-import com.aloha.spring.mapper.BoardMapper;
+import com.aloha.board.dto.Board;
+import com.aloha.board.mapper.BoardMapper;
 
 @Service
 public class BoardServiceImpl implements BoardService{
