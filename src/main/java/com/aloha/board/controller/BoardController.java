@@ -1,4 +1,4 @@
-package com.aloha.spring.controller;
+package com.aloha.board.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

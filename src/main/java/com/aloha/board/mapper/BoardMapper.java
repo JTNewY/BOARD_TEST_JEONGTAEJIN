@@ -1,4 +1,4 @@
-package com.aloha.spring.mapper;
+package com.aloha.board.mapper;
 
 import java.util.List;
 
