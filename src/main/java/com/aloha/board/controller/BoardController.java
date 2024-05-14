@@ -47,7 +47,7 @@ public class BoardController {
     @GetMapping("/insert")
     public String insert() throws Exception {
 
-        return "r:board/insert";
+        return "board/insert";
     }
     @PostMapping("/insert")
     public String insertPro(Board board) throws Exception {
@@ -67,7 +67,7 @@ public class BoardController {
         Board board = boardService.select(no);
         model.addAttribute("board", board);
         
-        return "redirect:/board/update";
+        return "board/update";
     }
 
     @PostMapping("/update")
@@ -76,7 +76,7 @@ public class BoardController {
         int result = boardService.update(board);
 
         if(result > 0){
-            return "redirect:board/list";
+            return "board/list";
         }
         int no = board.getNo();
         return "redirect:/board/update?no="+no+"&error";
