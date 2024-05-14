@@ -89,5 +89,5 @@ public class BoardController {
     }
     
 
-    // 아ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ 왜 안돼ㅁㄴㅇㅁㄴㅇㄴㅁ
+  
 }
