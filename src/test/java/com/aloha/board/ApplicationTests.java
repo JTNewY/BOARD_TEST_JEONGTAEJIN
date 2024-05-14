@@ -1,4 +1,4 @@
-package com.aloha.spring;
+package com.aloha.board;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
