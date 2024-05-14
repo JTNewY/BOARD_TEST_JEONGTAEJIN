@@ -3,15 +3,15 @@
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aloha.spring.mapper.BoardMapper">
+<mapper namespace="com.aloha.board.mapper.BoardMapper">
 
-    <select id="list" resultType="board">
+    <select id="list" resultType="Board">
         SELECT *
         FROM board
         ORDER BY reg_date DESC
     </select>
 
-    <select id="select" resultType="board">
+    <select id="select" resultType="Board">
         SELECT *
         FROM board
         WHERE no = #{no}
